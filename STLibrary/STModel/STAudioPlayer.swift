@@ -8,7 +8,8 @@
 
 import UIKit
 
-enum STAudioPlayerState {
+//要加KVO所以用 @objc + Int
+@objc enum STAudioPlayerState : Int {
     case STAudioPlayerState_None
     case STAudioPlayerState_Starting
     case STAudioPlayerState_Started
@@ -18,7 +19,8 @@ enum STAudioPlayerState {
 
 class STAudioPlayer: NSObject {
 
-    var state : STAudioPlayerState = .STAudioPlayerState_None
+    //此属性支持被观察
+     dynamic var state : STAudioPlayerState = .STAudioPlayerState_None
     
     func start() {
         

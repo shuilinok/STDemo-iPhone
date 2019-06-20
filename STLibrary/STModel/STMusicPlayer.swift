@@ -24,7 +24,7 @@ class STMusicPlayer: STAudioPlayer {
 }
 
 
-class STCheckMusicPlayer : STMusicPlayer {
+class STExtMusicPlayer : STMusicPlayer {
     
     func prepareStart() {
         

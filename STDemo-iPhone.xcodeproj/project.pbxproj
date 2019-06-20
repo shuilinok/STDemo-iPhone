@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4541A285229195B400EA0C88 /* STMusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4541A284229195B400EA0C88 /* STMusicPlayer.swift */; };
 		4541A28722919E5000EA0C88 /* STAudioPlayerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4541A28622919E5000EA0C88 /* STAudioPlayerManager.swift */; };
+		45B315B62292FD880025E310 /* STAudioPlayerStopRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B315B52292FD880025E310 /* STAudioPlayerStopRequest.swift */; };
+		45B315B82292FDCF0025E310 /* STCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B315B72292FDCF0025E310 /* STCallback.swift */; };
 		45CA8687225A3BD300D591CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA8686225A3BD300D591CB /* AppDelegate.swift */; };
 		45CA8689225A3BD300D591CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CA8688225A3BD300D591CB /* ViewController.swift */; };
 		45CA868C225A3BD300D591CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45CA868A225A3BD300D591CB /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 /* Begin PBXFileReference section */
 		4541A284229195B400EA0C88 /* STMusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STMusicPlayer.swift; sourceTree = "<group>"; };
 		4541A28622919E5000EA0C88 /* STAudioPlayerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STAudioPlayerManager.swift; sourceTree = "<group>"; };
+		45B315B52292FD880025E310 /* STAudioPlayerStopRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STAudioPlayerStopRequest.swift; sourceTree = "<group>"; };
+		45B315B72292FDCF0025E310 /* STCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STCallback.swift; sourceTree = "<group>"; };
 		45CA8683225A3BD300D591CB /* STDemo-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "STDemo-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		45CA8686225A3BD300D591CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		45CA8688225A3BD300D591CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -147,6 +151,7 @@
 		45CA86B5225B07F500D591CB /* STFoundation */ = {
 			isa = PBXGroup;
 			children = (
+				45B315B72292FDCF0025E310 /* STCallback.swift */,
 			);
 			path = STFoundation;
 			sourceTree = "<group>";
@@ -158,6 +163,7 @@
 				45CA86BA225CACDC00D591CB /* STAudioFilePlayer.swift */,
 				4541A284229195B400EA0C88 /* STMusicPlayer.swift */,
 				4541A28622919E5000EA0C88 /* STAudioPlayerManager.swift */,
+				45B315B52292FD880025E310 /* STAudioPlayerStopRequest.swift */,
 			);
 			path = STModel;
 			sourceTree = "<group>";
@@ -300,12 +306,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45B315B62292FD880025E310 /* STAudioPlayerStopRequest.swift in Sources */,
 				4541A28722919E5000EA0C88 /* STAudioPlayerManager.swift in Sources */,
 				45CA86BB225CACDC00D591CB /* STAudioFilePlayer.swift in Sources */,
 				4541A285229195B400EA0C88 /* STMusicPlayer.swift in Sources */,
 				45CA86B9225B080B00D591CB /* STAudioPlayer.swift in Sources */,
 				45CA8689225A3BD300D591CB /* ViewController.swift in Sources */,
 				45CA8687225A3BD300D591CB /* AppDelegate.swift in Sources */,
+				45B315B82292FDCF0025E310 /* STCallback.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
